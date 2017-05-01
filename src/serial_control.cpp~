@@ -20,8 +20,8 @@ int ret;
 int serial_fd;
 int direction;
 bool h;
-double low_vel=0.02;
-double high_vel=0.04;
+double low_vel=0.05;
+double high_vel=0.1;
 double velocity;
 char read_buf[50];
 int seriallen=4;//serial data length
